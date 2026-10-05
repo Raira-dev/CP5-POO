@@ -7,10 +7,9 @@ import java.time.LocalDateTime;
 public class ConsultaVeterinaria extends Atendimento {
 
     public static final String TIPO = "CONSULTA";
-
     public ConsultaVeterinaria() {
     }
-
+    
     public ConsultaVeterinaria(int protocolo, String petNome, String petPorte, String tutorNome, LocalDateTime dataHora) {
     	super(protocolo, petNome, petPorte, tutorNome, dataHora);
     }
